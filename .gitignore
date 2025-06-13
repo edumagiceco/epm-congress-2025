@@ -1,0 +1,89 @@
+# Environment variables
+.env
+.env.local
+.env.production
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+/logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# PHP
+composer.phar
+/vendor/
+/.phpunit.result.cache
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Database
+*.sql
+*.sqlite
+*.db
+/database/*.sql
+
+# Uploads and cache
+/uploads/*
+!/uploads/.gitkeep
+/cache/*
+!/cache/.gitkeep
+/tmp/*
+!/tmp/.gitkeep
+
+# Docker
+/docker/mysql/
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+/temp/
+
+# Config files with sensitive data
+config/database.php
+config/email.php
+config/api_keys.php
+
+# Production deployment files
+/deployment/ftp_config.php
+/deployment/production.env
+
+# Error logs
+error_log
+php_errors.log
